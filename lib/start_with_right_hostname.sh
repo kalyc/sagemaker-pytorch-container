@@ -6,6 +6,7 @@ then
     python /usr/local/bin/deep_learning_container.py  &>/dev/null &
 fi
 
+wait
 
 if [ $1 == 'train' ]
 then
